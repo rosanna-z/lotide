@@ -1,4 +1,9 @@
-// Use assertArraysEqual to compare the 4 letters and their expected positions. 
+/* Return all the indices (zero-based positions) in the string where each character is found.
+For each letter, instead of returning just one number to represent its number of occurrences, 
+multiple numbers may be needed to represent all the places in the string that it shows up.
+*/
+
+//Expected Output:
 //   { 
 //   h: [0],
 //   e: [1],
