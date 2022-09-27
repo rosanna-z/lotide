@@ -47,3 +47,4 @@ assertArraysEqual(eqArrays(results3, [ 'f', 's', 'b' ]), false)
 assertArraysEqual(eqArrays(['a', 'b', 'c', ['d', 'e']], ['a', 'b', 'c', ['e']]), true)
 assertArraysEqual(eqArrays(['a', 'b', 'c'], ['a', 2, 'c']), false)
 
+module.exports = map;
