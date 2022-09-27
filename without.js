@@ -30,3 +30,5 @@ const without = function (array, unwanted) {
 
 without([1, 2, 3], [1]) // => [2, 3]
 without(["1", "2", "3"], [1, 2, "3"]) // => ["1", "2"]
+
+module.exports = without;
