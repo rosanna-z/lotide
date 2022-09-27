@@ -16,10 +16,10 @@ const letterPositions = function(sentence) {
   for (let i = 0; i < sentence.length; i++) {
     if (results[sentence[i]]) {
       results[sentence[i]].push(i)
-    } else {
+      } else {
       results[sentence[i]] = [i];
-      } 
-  }console.log(results)
+    } 
+  }
   return results;
 }
 
@@ -44,3 +44,5 @@ const assertArraysEqual = function (arrayOne, arrayTwo) {
 };
 
 console.log((assertArraysEqual(letterPositions("hello").e, [1])));
+
+module.exports = letterPositions;
